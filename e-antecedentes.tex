@@ -1,0 +1,65 @@
+\section*{Control de gestos para su uso en automóviles}
+
+El artículo trata sobre el uso del control de gestos como control para conductores sobre los sistemas integrados en automóviles. Se centra en la detección y reconocimiento de gestos manuales mediante técnicas de recolección y procesamiento de imágenes. En primer lugar se resalta la importancia de tener un contraste entre la mano y el fondo para una detección precisa de gestos. Para lograr esto, los se usó un conjunto de LED que emiten luz infrarroja cercana (NIR) con longitud de onda de 950 nm, la cual no es visible para el ojo humano pero si para una cámara CCD modificada. Esta sensor elimina la información de color pero permite la medición de intensidades. \cite{CVVEHI}
+
+El proceso de recolección de imágenes implica segmentar cada imagen utilizando una única clase o categoría, por medio de umbralización simple. Luego, se rastrean y etiquetan los límites de las regiones conectadas con características iniciales como tamaño, alcance, centroide y momentos de Hu. Estas características ayudan a identificar y distinguir diferentes gestos manuales. Después, en una secuencia de imágenes con duración preestablecida, se emparejan regiones correspondientes (denominadas objetos) entre imágenes consecutivas. Esto se realiza al rastrear los centroides y asumiendo que las regiones pequeñas representan un ruido casi nulo. Por último, se calculan características de movimiento como velocidad y aceleración. Esto permite clasificar de objetos en diferentes clases dinámicas. Para reducir el peso computacional, se aplica un método de preselección basado en puntuación difusa y así eliminar algunos objetos. Entonces se utilizan conjuntos difusos para etiquetar objetos en una clase que indica que no son manos, basándose en el análisis de rangos típicos de características para manos. También incluye una fase de reconocimiento, donde los objetos se comparan con gestos de referencia precargados. En este caso se generan funciones de distribución de probabilidad para cada característica, y se mide la similitud entre el objeto observado y la referencia. Para evitar clasificaciones falsas, se determina un umbral por defecto y, si el objeto muestra poco movimiento, se usa un segundo clasificador basado en correlación de forma. La tasa de procesamiento se configuró en 25 fotogramas por segundo con una resolución de 192 $\times$ 144 píxeles y una procesador Pentium-II de 333 MHz. \cite{CVVEHI}
+
+
+\section*{Reconocimiento de gestos automático para interacciones inteligentes humano-robot}
+
+El enfoque principal de este artículo es el reconocimiento de gestos de cuerpo completo para la interacción inteligente entre humanos y robots. Se describe un método basado en aprendizaje que puede realizar simultáneamente la detección y el reconocimiento de gestos importantes. El método implica la estimación de la pose del cuerpo humano en 3D, el entrenamiento de Modelos Ocultos de Markov (HMM, por sus siglas en inglés) para modelar la variabilidad de patrones, y la construcción de un modelo para gestos no realizados. El método propuesto se integra en un sistema robótico llamado T-Rot y logra un alto rendimiento en el reconocimiento. La metodología utilizada fue la siguiente: 
+
+\subsection*{Modelo humano en 3D:}
+Se construyó una base de datos jerárquica del cuerpo humano utilizando imágenes de silueta e imágenes de profundidad. El modelo incluye múltiples niveles para representar diferentes posturas del cuerpo humano. \cite{Lee_2006}
+
+\subsection*{Extracción de características:}
+Basado en información sobre las componentes del cuerpo en 3D se seleccionan trece puntos característicos. También se utilizaron los ángulos desde el eje vertical hasta cada punto característico como una característica. \cite{Lee_2006}
+
+\subsection*{Fase de entrenamiento:}
+En esta etapa se entrenan los HMM para modelar la variabilidad de los patrones. En este entrenamiento se utilizó la base de datos \textit{KU Gesture} y se aplica el algoritmo K-means para dividir los datos de entrenamiento en sub-categorías. \cite{Lee_2006}
+
+\subsection*{Fase de reconocimiento:}
+En la fase de reconocimiento, se utiliza el algoritmo de Viterbi para encontrar la secuencia de estados más probable para un gesto ingresado al modelo. El gesto se detecta y reconoce en función de los HMMs entrenados. \cite{Lee_2006}
+
+\subsection*{Resultados experimentales:}
+El método propuesto se evalúa utilizando la base de datos \textit{KU Gesture} y gestos generados. El resultado general de detección es del 94.8 \%, y el resultado de reconocimiento de gestos aislados es del 97.4\%. \cite{Lee_2006}
+
+\section*{Sistema de reconocimiento de manos y rostro para personas ciegas}
+
+Este artículo presenta un sistema de reconocimiento diseñado para ayudar a personas con discapacidad visual. Se han desarrollado sistemas de reconocimiento de gestos con la mano y facial para realizar diversas tareas. El sistema captura imágenes dinámicas de un flujo de video, procesándolas a través de algoritmos respectivos. Para el reconocimiento de gestos con la mano, el sistema primero detecta la región de la mano en imágenes en tiempo real. Esto quiere decir que se realiza conversión del espacio RGB al espacio de color YCbCr. El sistema establece valores umbral superiores e inferiores para la detección de piel, los cuales pueden ser ajustados dinámicamente por el usuario según el entorno. Luego, por medio del algoritmo \textit{Convex Hull} o de envoltura convexa el sistema extrae características de la región de la mano, como las puntas de los dedos y el ángulo entre los dedos. En esta aplicación se reconocen diferentes gestos que representan números del uno al cinco utilizando este sistema. Para el reconocimiento facial, el sistema utiliza clasificadores de cascada Haar y el reconocedor LBPH (Histogramas de Patrones Binarios Locales). La imagen capturada del rostro se convierte a una imagen en escala de grises. Luego, el sistema entrena la base de datos de imágenes utilizando clasificadores y reconocedores. Durante el reconocimiento, la imagen en tiempo real se compara con las imágenes en la base de datos. Si se encuentra una coincidencia, se muestra el nombre asociado con la imagen. \cite{Sharma_2019}
+
+
+\section*{Sistema de reconocimiento gestos de cabeza utilizando la cámara de gestos}
+
+La Cámara de gestos es una cámara inteligente diseñada para capturar e interpretar gestos de cabeza, aí como expresiones faciales. Esta enfocado principalmente en individuos con discapacidades o parálisis. El documento explora diferentes áreas, como reconocimiento de gestos, detección facial, rastreo de rostro, y detección de obstáculos. Este sistema cuenta con unidades de captura de imágenes, reconocimiento de gestos y la de concentración despliegue de datos. La unidad de captura de imágenes utiliza un sensor de imagen a color CMOS, montada en una placa electrónica. Luego de capturar la secuencia de imágenes o video, la unidad de reconocimiento de gestos analiza e identifica los gestos y expresiones faciales. Para poder realizar esto, utiliza técnicas como modelado de movimiento, análisis de movimiento, reconocimiento de patrones, y \textit{machine learning} para poder interpretar los gestos. Esta unidad también es capaz de detectar el movimiento de la cabeza par luego determinar su orientación. Una vez que los gestos se reconocieron, la información se transfiere a la unidad de concentración y despliegue. Esta unidad puede ser una computadora personal o bien una de control centralizado. La salida de datos de la cámara inteligente, que incluye una descripción de alto nivel del rostro del usuario en diferentes orientaciones, es enviada a la sección de concentración para un futuro procesamiento. \cite{Bankar2015}
+
+
+\begin{itemize}
+	\item Los retos mas importantes afrontados en el desarrollo de dicho sistema fueron:
+	\begin{enumerate}
+		\item Imágenes fuera del rango de la cámara, esto fue un problema dado que el sistema debe ser capaz de detectar los gestos de movimiento incluso si la cabeza no es completamente visible por el sensor. \cite{Bankar2015}
+		\item La variación de las condiciones de iluminación, el sistema también debe ser capaz de reconocer los gestos de la cabeza con precisión aún si las condiciones de luz cambian, entendiendo que esto puede cambiar el aspecto del rostro del usuario. \cite{Bankar2015}
+		\item La variación de las formas de los rostros, los usuarios jamás tendrán rostros exactamente iguales, tanto por forma, tono de piel, bello facial, gafas, entre otros, dicha variación provoca un mayor reto para reconocer gestos de manera adecuada. \cite{Bankar2015}
+		\item Fondos desordenados, cuando el dispositivo móvil realice una acción de movimiento, el fondo puede parecer desordenado o en movimiento, lo cual se puede mezclar con el movimiento de los gestos, creando así una dificultad para diferenciar el fondo de los gestos en el algoritmo de reconocimiento del sistema. \cite{Bankar2015}
+	\end{enumerate}
+\end{itemize}
+
+\section*{Control de una silla de ruedas usando una agrupación de k-medias adaptativas de las poses de la cabeza}
+
+
+En este artículo se presenta la idea de ayudar a las personas con ciertas discapacidades físicas, por modio de una interfaz que utiliza el sensor Kinect desarrollado por Microsoft. El objetivo es permitir a las personas con discapacidades interactuar con los dispositivos electrónicos. Para lograr esto, se utilizó un algoritmo basado en la Regresión de Bosques Aleatorio y uno de agrupación de k-medias para detectar los cambios en el rango de dirección de los movimiento de cabeza. Y la experimentación se realizó en 5 individuos operando la silla de ruedas en condiciones favorables y no favorables. \cite{LuisA2013}
+
+El sistema propuesto se basa en el método de agrupamiento de k-medias, el cual es un esquema de agrupamiento que utiliza puntos representativos y distancias euclidianas para medir escala de similitud entre vectores y el agrupamiento de puntos representativos. Además los datos obtenidos son posibles gracias al sensor de profundidad utilizado. La arquitectura del sistema propuesto funciona de la siguiente manera: 
+
+\subsection*{Calibración}
+
+Este proceso consta del establecimiento de la configuración inicial para cada usuario, del tal manera que se pueda realizar un proceso personalizado al usuario. Este proceso requiere que el usuario coloque la posición de la cabeza según solicite la interfaz, para configurar las funciones de detenerse, izquierda, derecha, adelante y atrás. Este proceso utiliza el algoritmo RRF. Luego, los datos recopilados se guardan para luego utilizarse en el proceso de adaptación. \cite{LuisA2013} 
+
+\subsection*{Rectificado}
+Esta es la etapa final, pero el artículo lo menciona que es importante mencionar en este punto la funcionalidad del proceso. Dado que el sistema se encuentra generando constantemente estimados de los ángulos de pose, es importante realizar un rectificado según la pose y la capacidad de movimiento del usuario. \cite{LuisA2013} 
+
+\subsection*{Adaptación}
+
+Se consideró que, dadas las situaciones de fatiga o degeneración en las enfermedades de los usuarios, podría suceder una descalibración del control de movimiento. Para esto se integraron dos métodos al sistema. El primer método consisten en la implementación de sensores de sonar que se encargan de detectar obstáculos. Al detectarlos, se implementa una corrección en el movimiento. El siguiente método consiste en crear agrupaciones adicionales a las de las funciones principales. Dichas agrupaciones, son las combinaciones de los movimientos básicos. Esto es realizado por medio de el algoritmo de agrupamiento de k-medias, y ayuda a no realizar cambios de movimiento abruptos. \cite{LuisA2013} 
+
+

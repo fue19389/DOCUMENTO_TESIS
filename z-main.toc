@@ -1,0 +1,23 @@
+\babel@toc {spanish}{}\relax 
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{Prefacio}{\es@scroman {v}}{section*.6}%
+\contentsline {chapter}{Lista de figuras}{\es@scroman {ix}}{section*.8}%
+\contentsline {chapter}{Lista de cuadros}{\es@scroman {xi}}{section*.9}%
+\contentsline {chapter}{Resumen}{\es@scroman {xiii}}{section*.10}%
+\contentsline {chapter}{Abstract}{\es@scroman {xv}}{section*.11}%
+\contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.12}%
+\contentsline {chapter}{\numberline {2}Antecedentes}{3}{chapter.13}%
+\contentsline {chapter}{\numberline {3}Justificación}{9}{chapter.31}%
+\contentsline {chapter}{\numberline {4}Objetivos}{11}{chapter.32}%
+\contentsline {chapter}{\numberline {5}Alcance}{13}{chapter.35}%
+\contentsline {chapter}{\numberline {6}Marco teórico}{15}{chapter.36}%
+\contentsline {chapter}{\numberline {7}Selección de hardware}{25}{chapter.67}%
+\contentsline {chapter}{\numberline {8}Ajuste de software y algoritmos}{27}{chapter.68}%
+\contentsline {chapter}{\numberline {9}Algoritmo de traducción}{29}{chapter.69}%
+\contentsline {chapter}{\numberline {10}Simulaciones}{31}{chapter.70}%
+\contentsline {chapter}{\numberline {11}Pruebas físicas}{33}{chapter.71}%
+\contentsline {chapter}{\numberline {12}Conclusiones}{35}{chapter.72}%
+\contentsline {chapter}{\numberline {13}Recomendaciones}{37}{chapter.73}%
+\contentsline {chapter}{\numberline {14}Bibliograf\'{\i }a}{39}{chapter.75}%
+\contentsline {chapter}{\numberline {15}Anexos}{41}{chapter.76}%
+\contentsline {section}{\numberline {15.1}hola mundo}{41}{section.77}%
