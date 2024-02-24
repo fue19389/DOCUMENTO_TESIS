@@ -8,15 +8,37 @@ Como primer recurso se tomó en cuenta el uso de la cámara incorporada en una l
 
 %Esta etapa requiere verificar la disponibilidad de componentes a nivel local, tanto universitario y a nivel de país, para poder determinar el alcance de los prototipos. Luego de obtener el listado de opciones de sensores, se podrá hacer un análisis de la documentación para cada sensor y poder establecer el enfoque que se le dará, según las características del mismo. También se analizará la compatibilidad de cada sensor con diferentes lenguajes de programación y/o plataformas ya existentes. También, en esta etapa se realizará la búsqueda de robots disponibles para la implementación de los algoritmos propuestos. Por último, también se analizará cuales sensores externos (además de la cámara) se utilizarán para la parte de corrección de movimiento.
 
-\chapter{Ajuste de software y algoritmos}
+\chapter{Software, datos y algoritmos}
 
 \section{Lenguaje de programación}
 Inicialmente se inicia a trabajar utilizando herramientas presentadas en cursos de robótica, en este caso, se utiliza Python como lenguaje de programación. Dicha selección, resulta de la compatibilidad que tiene con \textit{OpenCV}, una librería utilizada para poder realizar aplicaciones de visión por computadora, que funciona tanto para leer las imágenes de entrenamiento a utilizar en el modelo de \textit{Machine Learning} como para la captura de imágenes en tiempo real. 
 
 \section{Bases de datos}
-Se realizó una búsqueda de sets que tuvieran diferentes rostros posicionados en distintos ángulos. Sin embargo, hubo una única base de datos pública, con  imágenes disponibles que para cualquier propósito. En esta base de datos cuenta con 15 sujetos de prueba, a cada sujeto se le realizaron dos pruebas y en cada prueba se realizó un total de 93 fotografías. El grupo de imágenes se obtuvieron al mezclar los siguientes ángulos: 7 de inclinación (vertical) y 13 panorámicos (horizontal) además de una dos fotografías extra, una en la posición completamente hacia arriba y otra completamente hacia abajo. Las imágenes en esta base de datos se encuentran en un formato JPG, además cada imagen cuenta con un documento de texto que contiene: el nombre del archivo y el centro en el eje X, en el eje Y, el alto y el ancho de la cara correspondiente. \cite{Gourier_Hall_Crowley}
+Se realizó una búsqueda de sets que tuvieran diferentes rostros posicionados en distintos ángulos. Sin embargo, hubo una única base de datos pública publicada por la \textit{ICPR} \textit{(International Workshop on Visual Observation of Deictic Gestures)}, en Cambridge, Reino Unido, con  2790 imágenes disponibles para cualquier propósito. En esta base de datos cuenta con 15 sujetos de prueba, a cada sujeto se le realizaron dos pruebas y en cada prueba se realizó un total de 93 fotografías. El grupo de imágenes se obtuvieron al mezclar los siguientes ángulos: 7 de inclinación (vertical) y 13 panorámicos (horizontal) además de una dos fotografías extra, una en la posición completamente hacia arriba y otra completamente hacia abajo. Las imágenes en esta base de datos se encuentran en un formato JPG, además cada imagen cuenta con un documento de texto que contiene: el nombre del archivo y el centro en el eje X, en el eje Y, el alto y el ancho de la cara correspondiente. \cite{Gourier_Hall_Crowley}
 
-\section{Ajustes de software}
+Las fotografías de la base de datos se encuentran nombradas en primer lugar por su ángulo de panorámica y luego por su ángulo de inclinación, por lo que se puede observar que para cada sujeto las fotografías aparecen desde la panorámica extrema derecha y la inclinación extrema inferior y terminan en los extremos opuestos. Por lo que la fotografías recorren primero los ángulos de panorámica y luego incrementan los ángulos de inclinación. Además, estas fotografías no cuentan con algún archivo de etiquetas, por lo que estas se asignaron manualmente, tomando en cuenta el orden previamente explicado en que se encuentran ordenadas. A continuación se muestra un ejemplo del orden mencionado anteriormente:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=1]{figures/tiltpan.png}
+	\caption{Muestra de 15 fotografías del sujeto 12 \cite{Gourier_Hall_Crowley}}
+	\label{fig:img0}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=1]{figures/faceorder.png}
+	\caption{Orden de guardado para cada serie de fotografías}
+	\label{fig:img1}
+\end{figure}
+
+Además de este orden, todas las series de fotografías iniciaban con la imagen de la cabeza completamente hacia arriba y finalizaban con la posición completamente abajo, de frente para ambas. Dado que se tenían 15 sujetos de prueba, se procedió a guardar los archivos JPG de 11 (2046 imágenes) sujetos en un directorio de entrenamiento y los 4 (744 imágenes) restantes en el de pruebas. Al tener en cuenta el orden de los archivos y la cantidad en cada directorio se procedió a realizar las etiquetas por medio de un documento \textit[Excel]con formato \textit[.xlsx]. En dicho documento se creó una hoja para cada grupo de etiquetas, esto quiere decir, una hoja para etiquetas de entrenamiento y otra para etiquetas de prueba.
+
+\subsection{Etiquetas para clasificación}
+
+Para la primera experimentación se consideró clasificar las imágenes en 9 clases diferentes, de tal manera que la orientación de la cabeza respecto de la cámara funcionara de manera similar a una palanca de mandos analógica. A continuación se presenta una visualización de dicha clasificación:
+
+\section{Algoritmos para visión por computadora}
 
 
 \chapter{Algoritmo de traducción}

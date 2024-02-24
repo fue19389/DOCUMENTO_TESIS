@@ -930,6 +930,43 @@
       \verb https://caffe.berkeleyvision.org/
       \endverb
     \endentry
+    \entry{Gourier_Hall_Crowley}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=4b38d9c78d9c5e408268348daa859dbc}{%
+           family={Gourier},
+           familyi={G\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=1eb32c91efb363d47219f39bd2e174e5}{%
+           family={Hall},
+           familyi={H\bibinitperiod},
+           given={Daniela},
+           giveni={D\bibinitperiod}}}%
+        {{hash=315d67a61bd36a3ffdff6d74358f16e1}{%
+           family={Crowley},
+           familyi={C\bibinitperiod},
+           given={James\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{820c24107479b18f178af43901960041}
+      \strng{fullhash}{820c24107479b18f178af43901960041}
+      \strng{bibnamehash}{820c24107479b18f178af43901960041}
+      \strng{authorbibnamehash}{820c24107479b18f178af43901960041}
+      \strng{authornamehash}{820c24107479b18f178af43901960041}
+      \strng{authorfullhash}{820c24107479b18f178af43901960041}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Crowley-coutaz}
+      \field{title}{Estimating Face orientation from Robust Detection of Salient Facial Structures}
+      \verb{urlraw}
+      \verb http://crowley-coutaz.fr/jlc/papers/Pointing04-Gourier.pdf
+      \endverb
+      \verb{url}
+      \verb http://crowley-coutaz.fr/jlc/papers/Pointing04-Gourier.pdf
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
