@@ -17,12 +17,13 @@
 \contentsline {chapter}{\numberline {8}Software, datos y algoritmos}{27}{chapter.70}%
 \contentsline {section}{\numberline {8.1}Lenguaje de programación}{27}{section.71}%
 \contentsline {section}{\numberline {8.2}Bases de datos}{27}{section.72}%
-\contentsline {subsection}{\numberline {8.2.1}Etiquetas para clasificación}{29}{subsection.75}%
-\contentsline {section}{\numberline {8.3}Algoritmos para visión por computadora}{29}{section.76}%
-\contentsline {chapter}{\numberline {9}Algoritmo de traducción}{31}{chapter.77}%
-\contentsline {chapter}{\numberline {10}Simulaciones}{33}{chapter.78}%
-\contentsline {chapter}{\numberline {11}Pruebas físicas}{35}{chapter.79}%
-\contentsline {chapter}{\numberline {12}Conclusiones}{37}{chapter.80}%
-\contentsline {chapter}{\numberline {13}Recomendaciones}{39}{chapter.81}%
-\contentsline {chapter}{\numberline {14}Bibliograf\'{\i }a}{41}{chapter.83}%
-\contentsline {chapter}{\numberline {15}Anexos}{43}{chapter.84}%
+\contentsline {subsection}{\numberline {8.2.1}ICPR}{27}{subsection.73}%
+\contentsline {subsubsection}{Etiquetas para clasificación}{29}{section*.76}%
+\contentsline {section}{\numberline {8.3}Algoritmos para visión por computadora}{32}{section.83}%
+\contentsline {chapter}{\numberline {9}Algoritmo de traducción}{33}{chapter.84}%
+\contentsline {chapter}{\numberline {10}Simulaciones}{35}{chapter.85}%
+\contentsline {chapter}{\numberline {11}Pruebas físicas}{37}{chapter.86}%
+\contentsline {chapter}{\numberline {12}Conclusiones}{39}{chapter.87}%
+\contentsline {chapter}{\numberline {13}Recomendaciones}{41}{chapter.88}%
+\contentsline {chapter}{\numberline {14}Bibliograf\'{\i }a}{43}{chapter.90}%
+\contentsline {chapter}{\numberline {15}Anexos}{45}{chapter.91}%
