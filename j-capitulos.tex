@@ -1,18 +1,20 @@
-\chapter{Selección de hardware}
+\chapter{Selección de hardware y software}
+
+\section{Lenguaje de programación}
+Inicialmente se inicia a trabajar utilizando herramientas presentadas en cursos de robótica, en este caso, se utiliza Python como lenguaje de programación. Dicha selección, resulta de la compatibilidad que tiene con \textit{OpenCV}, una librería utilizada para poder realizar aplicaciones de visión por computadora, que funciona tanto para leer las imágenes de entrenamiento a utilizar en el modelo de \textit{Machine Learning} como para la captura de imágenes en tiempo real. Es importante mencionar que, para realizar la programación, se optó por utilizar el IDE (Entorno de desarrollo integrado) \textit{PyCharm Community Edition}, dado que cuenta con comandos integrados para manejar entornos virtuales y conexiones con \textit{Git} y \textit{Github}.
 
 
 \section{Sensor óptico}
-
 \subsection{Cámara integrada en laptop}
-
 Como primer recurso se tomó en cuenta el uso de la cámara incorporada en una laptop, dado que cualquier persona que esté trabajando en una, puede utilizar dicha herramienta, ahorrando así la compra de un módulo externo. Dicho sistema de cámara integrada puede variar su resolución desde los 0.4 (848$\times$480) Megapíxeles hasta los 2.1(1920$\times$1080). Este módulo se encuentra integrado en una laptop \textit{Lenovo IdeaPad Flex 5 16IAU7} y es fabricado por la empresa \textit{SunplusIT}, la cual es una empresa líder en la manufactura y distribución de chips para multimedia y aplicaciones automotrices, así como el proveedor de cámaras integradas para la empresa \textit{Lenovo}, por lo cual la replicabilidad de las secciones realizadas con dicho sensor es alta.
+
+\subsection{Posible módulo externo}
 
 \section{Transmisión de datos}
 \section{Agente robótico}
 
 %Esta etapa requiere verificar la disponibilidad de componentes a nivel local, tanto universitario y a nivel de país, para poder determinar el alcance de los prototipos. Luego de obtener el listado de opciones de sensores, se podrá hacer un análisis de la documentación para cada sensor y poder establecer el enfoque que se le dará, según las características del mismo. También se analizará la compatibilidad de cada sensor con diferentes lenguajes de programación y/o plataformas ya existentes. También, en esta etapa se realizará la búsqueda de robots disponibles para la implementación de los algoritmos propuestos. Por último, también se analizará cuales sensores externos (además de la cámara) se utilizarán para la parte de corrección de movimiento.
 \chapter{Bases de datos}
-
 \section{ICPR}
 
 Al inicio se realizó una búsqueda de bases de datos que tuvieran diferentes rostros posicionados en distintos ángulos. Sin embargo, hubo una única base de datos pública publicada por la \textit{ICPR} \textit{(International Workshop on Visual Observation of Deictic Gestures)}, en Cambridge, Reino Unido, con  2790 imágenes disponibles para cualquier propósito. En esta base de datos cuenta con 15 sujetos de prueba, a cada sujeto se le realizaron dos pruebas y en cada prueba se realizó un total de 93 fotografías. El grupo de imágenes se obtuvieron al mezclar los siguientes ángulos: 7 de inclinación (vertical) y 13 panorámicos (horizontal) además de una dos fotografías extra, una en la posición completamente hacia arriba y otra completamente hacia abajo. Las imágenes en esta base de datos se encuentran en un formato JPG, además cada imagen cuenta con un documento de texto que contiene: el nombre del archivo y el centro en el eje X, en el eje Y, el alto y el ancho de la cara correspondiente. \cite{Gourier_Hall_Crowley}
@@ -87,33 +89,36 @@ Luego de pruebas realizadas con resultados no satisfactorios en la sección de a
 \end{figure}
 
 
-\chapter{Software y algoritmos}
-\section{Lenguaje de programación}
-Inicialmente se inicia a trabajar utilizando herramientas presentadas en cursos de robótica, en este caso, se utiliza Python como lenguaje de programación. Dicha selección, resulta de la compatibilidad que tiene con \textit{OpenCV}, una librería utilizada para poder realizar aplicaciones de visión por computadora, que funciona tanto para leer las imágenes de entrenamiento a utilizar en el modelo de \textit{Machine Learning} como para la captura de imágenes en tiempo real. Es importante mencionar que, para realizar la programación, se optó por utilizar el IDE (Entorno de desarrollo integrado) \textit{PyCharm Community Edition}, dado que cuenta con comandos integrados para manejar entornos virtuales y conexiones con \textit{Git} y \textit{Github}.
-
-\section{Algoritmos para visión por computadora}
-\subsection{Preprocesado de imágenes}
+\subsection{Fotografías personales}
+Dado que los resultados con los modelos de de reconocimiento de orientación no fueron los esperados en ningún caso, se procedió a realizar dos series de fotografías personales con la cámara integrada. Cada serie consta de 9 fotografías con posiciones que simulan las 9 clases inicialmente definidas a una distancia de 45 cm aproximadamente. Una de las series fue tomada en un salón de laboratorio del Departamento de Ingeniería Electrónica, Mecatrónica y Biomédica de la Universidad del Valle de Guatemala y la otra fue realizada en un espacio de trabajo en la casa de Gerardo Andres Fuentes Bámaca (autor). Luego, las fotografías fueron renombradas de tal manera que se pudiera conocer su orden y posición en la lista de imágenes del grupo de entrenamiento. De esta manera, fueron agregadas las etiquetas correspondientes en el documento de etiquetas con extensión \textit{.xlsx}, tanto para los casos de 9 y 6 clases.
+\section{ColorFET}
+\chapter{Algoritmos para visión por computadora}
+\section{Preprocesado de imágenes}
 
 
 Inicialmente se diseñó un código para extraer fotografías desde un directorio, etiquetas desde un documento con extensión \textit{.xlsx} y luego transformarlos en matrices de datos que para poder ser utilizados en los proceso de \textit{Machine Learning}. Para la realización de este código, se utilizaron las siguientes librerías: \textit{OS}, \textit{CV2 (OpenCV)}, \textit{Numpy} y \textit{Pandas}. Además de esto el proceso para la realización del código fue el siguiente: 
 
-\subsubsection{Transformación de fotografías}
+\subsection{Transformación de fotografías}
 En este caso, se utilizó la librería \textit{OS} para crear una lista con nombres en formato cadena de los archivos en un directorio dado. Luego, utilizando la librería \textit{Numpy}, se creó una matriz de ceros para guardar todas las fotografías convertidas en formato de matriz. Para realizar la conversión, previamente se realizó una prueba para obtener las dimensiones mínimas con las que puede trabajar la cámara integrada con la librería \textit{CV2}, cuyo tamaño es 320 $\times$ 180 píxeles. Después, dentro de un bucle \textit{for} se utilizó la librería \textit{CV2} obtener la matriz de pixeles de cada fotografía, ajustar el tamaño a las dimensiones encontradas y luego transformar el canal de color por defecto BGR \textit{(Blue, Green, Red)} a RGB \textit{(Red, Green, Blue)}. 
 
-\subsubsection{Transformación de etiquetas}
+\subsection{Transformación de etiquetas}
 
 Para transformar las etiquetas en matrices de datos, únicamente se requirió la librería \textit{Pandas}, ya que nos permite utilizar una función específica para leer documentos con formato \textit{.xlsx}, así como acceder a las hojas internas del documento. Al guardar el resultado de esta función el siguiente paso es convertirlo a un formato de matriz con funciones de \textit{Numpy}. 
 
-\subsubsection{Exportación de datos finales}
+\subsection{Exportación de datos finales}
 
 La librería \textit{Numpy} cuenta con una función para exportar matrices de datos de manera individual (una variable a la vez), o bien agruparlas en un solo archivo. En este caso, se guardaron las matrices de fotografías en un solo archivo, dado que estas solo cambiarán si se agregan más fotografías. Por otro lado, las matrices de etiquetas fueron exportadas de manera individual dado que se cuenta con diferentes grupos.
 
-\subsection{Entrenamiento de modelos de \textit{machine learning}}
+\section{Entrenamiento de modelos de \textit{machine learning}}
+Para las primeras pruebas se utilizó el framework \textit{TensorFlow y Keras} para poder realizar los diferentes modelos de \textit{Machine Learning} para reconocimiento de orientación de cabeza, utilizando las matrices de datos obtenidas a partir de la base de datos de ICPR. Para este código se utilizaron las librerías \textit{TensorFlow}, \textit{Matplotlib}, \textit{Numpy} y \textit{Seaborn}. El código fue realizado de la siguiente manera:
 
-Para las primeras pruebas se utilizó el framework \textit{TensorFlow y Keras} para poder realizar los diferentes modelos de \textit{Machine Learning} para reconocimiento de orientación de cabeza, utilizando la data obtenida de la base de datos de ICPR. 
+\subsection{Extracción de datos previamente procesados}
+Luego de exportar los archivos transformados de la base de datos, se generan archivos con extensión \textit{.npy} para los archivos de una variable y \textit{.npz} para los de múltliple variables. Dichos archivos pueden ser importados utilizando también funciones de la librería \textit{Numpy}, para guardarlos en variables utilizables dentro del código, optimizando así el tiempo de transformación de datos.
 
-\subsection{Ajuste de modelos preentreanados}
-\subsection{Pruebas en tiempo real}
+\subsection{Modelo de reconocimiento de orientación de cabeza}
+El primer pasó fue normalizar los valores de las matrices, dado que son imágenes RGB, cada píxel de estas está representado por 3 valores que varían entre 0 y 255, y se necesitan valores entre 0 y 1, por lo que únicamente se tuvo que dividir tanto la variable con datos de entrenamiento y de prueba entre el valor 255. 
+\section{Ajuste de modelos preentreanados}
+\section{Pruebas en tiempo real}
 
 
 \chapter{Traducción algoritmo a comandos}
