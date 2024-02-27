@@ -31,12 +31,12 @@
 \contentsline {section}{\numberline {9.2}Entrenamiento de modelos de \textit {machine learning}}{34}{section.92}%
 \contentsline {subsection}{\numberline {9.2.1}Extracción de datos previamente procesados}{34}{subsection.93}%
 \contentsline {subsection}{\numberline {9.2.2}Modelo de reconocimiento de orientación de cabeza}{34}{subsection.94}%
-\contentsline {section}{\numberline {9.3}Ajuste de modelos preentreanados}{35}{section.95}%
-\contentsline {section}{\numberline {9.4}Pruebas en tiempo real}{35}{section.96}%
-\contentsline {chapter}{\numberline {10}Traducción algoritmo a comandos}{37}{chapter.97}%
-\contentsline {chapter}{\numberline {11}Simulaciones}{39}{chapter.98}%
-\contentsline {chapter}{\numberline {12}Pruebas físicas}{41}{chapter.99}%
-\contentsline {chapter}{\numberline {13}Conclusiones}{43}{chapter.100}%
-\contentsline {chapter}{\numberline {14}Recomendaciones}{45}{chapter.101}%
-\contentsline {chapter}{\numberline {15}Bibliograf\'{\i }a}{47}{chapter.103}%
-\contentsline {chapter}{\numberline {16}Anexos}{49}{chapter.104}%
+\contentsline {section}{\numberline {9.3}Ajuste de modelos preentreanados}{44}{section.103}%
+\contentsline {section}{\numberline {9.4}Pruebas en tiempo real}{44}{section.104}%
+\contentsline {chapter}{\numberline {10}Traducción algoritmo a comandos}{45}{chapter.105}%
+\contentsline {chapter}{\numberline {11}Simulaciones}{47}{chapter.106}%
+\contentsline {chapter}{\numberline {12}Pruebas físicas}{49}{chapter.107}%
+\contentsline {chapter}{\numberline {13}Conclusiones}{51}{chapter.108}%
+\contentsline {chapter}{\numberline {14}Recomendaciones}{53}{chapter.109}%
+\contentsline {chapter}{\numberline {15}Bibliograf\'{\i }a}{55}{chapter.111}%
+\contentsline {chapter}{\numberline {16}Anexos}{57}{chapter.112}%
