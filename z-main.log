@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.2)  24 FEB 2024 02:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.2)  26 FEB 2024 21:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1095,7 +1095,7 @@ pdf>
 egro-eps-converted-to.pdf plantilla/escudoUVGnegro.eps>
 (epstopdf)             \includegraphics on input line 164.
 Package epstopdf Info: Output file is already uptodate.
-<plantilla/escudoUVGnegro-eps-converted-to.pdf, id=111, 141.52875pt x 209.78375
+<plantilla/escudoUVGnegro-eps-converted-to.pdf, id=139, 141.52875pt x 209.78375
 pt>
 File: plantilla/escudoUVGnegro-eps-converted-to.pdf Graphic file (type pdf)
 <use plantilla/escudoUVGnegro-eps-converted-to.pdf>
@@ -1252,45 +1252,48 @@ Cap\'{\i }tulo 7.
 
 ]
 Cap\'{\i }tulo 8.
-[27]
-<figures/tiltpan.png, id=502, 460.72125pt x 215.80624pt>
+<figures/tiltpan.png, id=533, 460.72125pt x 215.80624pt>
 File: figures/tiltpan.png Graphic file (type png)
 <use figures/tiltpan.png>
-Package pdftex.def Info: figures/tiltpan.png  used on input line 26.
+Package pdftex.def Info: figures/tiltpan.png  used on input line 24.
 (pdftex.def)             Requested size: 460.72012pt x 215.80571pt.
 
-Overfull \hbox (27.10011pt too wide) in paragraph at lines 26--27
+Overfull \hbox (27.10011pt too wide) in paragraph at lines 24--25
  [][] 
  []
 
-<figures/faceorder.png, id=506, 460.72125pt x 215.80624pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27]
+<figures/faceorder.png, id=541, 460.72125pt x 215.80624pt>
 File: figures/faceorder.png Graphic file (type png)
 <use figures/faceorder.png>
-Package pdftex.def Info: figures/faceorder.png  used on input line 33.
+Package pdftex.def Info: figures/faceorder.png  used on input line 31.
 (pdftex.def)             Requested size: 460.72012pt x 215.80571pt.
 
-Overfull \hbox (27.10011pt too wide) in paragraph at lines 33--34
+Overfull \hbox (27.10011pt too wide) in paragraph at lines 31--32
  [][] 
  []
 
 [28 <./figures/tiltpan.png> <./figures/faceorder.png>]
-<figures/clasi0.png, id=514, 460.72125pt x 215.80624pt>
+<figures/clasi0.png, id=549, 460.72125pt x 215.80624pt>
 File: figures/clasi0.png Graphic file (type png)
 <use figures/clasi0.png>
-Package pdftex.def Info: figures/clasi0.png  used on input line 46.
+Package pdftex.def Info: figures/clasi0.png  used on input line 44.
 (pdftex.def)             Requested size: 460.72012pt x 215.80571pt.
 
-Overfull \hbox (27.10011pt too wide) in paragraph at lines 46--47
+Overfull \hbox (27.10011pt too wide) in paragraph at lines 44--45
  [][] 
  []
 
-<figures/clasi01.png, id=515, 460.72125pt x 215.80624pt>
+<figures/clasi01.png, id=550, 460.72125pt x 215.80624pt>
 File: figures/clasi01.png Graphic file (type png)
 <use figures/clasi01.png>
-Package pdftex.def Info: figures/clasi01.png  used on input line 56.
+Package pdftex.def Info: figures/clasi01.png  used on input line 54.
 (pdftex.def)             Requested size: 460.72012pt x 215.80571pt.
 
-Overfull \hbox (27.10011pt too wide) in paragraph at lines 56--57
+Overfull \hbox (27.10011pt too wide) in paragraph at lines 54--55
  [][] 
  []
 
@@ -1298,23 +1301,23 @@ Overfull \hbox (27.10011pt too wide) in paragraph at lines 56--57
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [29 <./figures/clasi0.png>]
-<figures/clasi02.png, id=523, 460.72125pt x 215.80624pt>
+<figures/clasi02.png, id=557, 460.72125pt x 215.80624pt>
 File: figures/clasi02.png Graphic file (type png)
 <use figures/clasi02.png>
-Package pdftex.def Info: figures/clasi02.png  used on input line 63.
+Package pdftex.def Info: figures/clasi02.png  used on input line 61.
 (pdftex.def)             Requested size: 460.72012pt x 215.80571pt.
 
-Overfull \hbox (27.10011pt too wide) in paragraph at lines 63--64
+Overfull \hbox (27.10011pt too wide) in paragraph at lines 61--62
  [][] 
  []
 
-<figures/clasi1.png, id=524, 460.72125pt x 215.80624pt>
+<figures/clasi1.png, id=558, 460.72125pt x 215.80624pt>
 File: figures/clasi1.png Graphic file (type png)
 <use figures/clasi1.png>
-Package pdftex.def Info: figures/clasi1.png  used on input line 72.
+Package pdftex.def Info: figures/clasi1.png  used on input line 70.
 (pdftex.def)             Requested size: 460.72012pt x 215.80571pt.
 
-Overfull \hbox (27.10011pt too wide) in paragraph at lines 72--73
+Overfull \hbox (27.10011pt too wide) in paragraph at lines 70--71
  [][] 
  []
 
@@ -1322,23 +1325,23 @@ Overfull \hbox (27.10011pt too wide) in paragraph at lines 72--73
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [30 <./figures/clasi01.png> <./figures/clasi02.png>]
-<figures/clasi2.png, id=531, 460.72125pt x 215.80624pt>
+<figures/clasi2.png, id=565, 460.72125pt x 215.80624pt>
 File: figures/clasi2.png Graphic file (type png)
 <use figures/clasi2.png>
-Package pdftex.def Info: figures/clasi2.png  used on input line 79.
+Package pdftex.def Info: figures/clasi2.png  used on input line 77.
 (pdftex.def)             Requested size: 460.72012pt x 215.80571pt.
 
-Overfull \hbox (27.10011pt too wide) in paragraph at lines 79--80
+Overfull \hbox (27.10011pt too wide) in paragraph at lines 77--78
  [][] 
  []
 
-<figures/clasi3.png, id=532, 460.72125pt x 215.80624pt>
+<figures/clasi3.png, id=566, 460.72125pt x 215.80624pt>
 File: figures/clasi3.png Graphic file (type png)
 <use figures/clasi3.png>
-Package pdftex.def Info: figures/clasi3.png  used on input line 86.
+Package pdftex.def Info: figures/clasi3.png  used on input line 84.
 (pdftex.def)             Requested size: 460.72012pt x 215.80571pt.
 
-Overfull \hbox (27.10011pt too wide) in paragraph at lines 86--87
+Overfull \hbox (27.10011pt too wide) in paragraph at lines 84--85
  [][] 
  []
 
@@ -1350,26 +1353,30 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Cap\'{\i }tulo 9.
 [33
 
-] [34
-
-]
+] [34]
 Cap\'{\i }tulo 10.
-[35] [36
+[35
+
+] [36
 
 ]
 Cap\'{\i }tulo 11.
-) [37] [38
+[37] [38
 
 ]
 Cap\'{\i }tulo 12.
-(k-conclusiones.tex) [39] [40
+) [39] [40
 
 ]
 Cap\'{\i }tulo 13.
-(l-recomendaciones.tex) [41] [42
+(k-conclusiones.tex) [41] [42
 
 ]
 Cap\'{\i }tulo 14.
+(l-recomendaciones.tex) [43] [44
+
+]
+Cap\'{\i }tulo 15.
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 4
 38.
 (C:\Program Files\MiKTeX\tex/latex/base\t1cmtt.fd
@@ -1387,7 +1394,7 @@ Overfull \hbox (10.35724pt too wide) in paragraph at lines 438--438
 utional _ Neural _ Networks$[]\T1/cmr/m/n/10.95 . 
  []
 
-[43
+[45
 
 ]
 Overfull \hbox (41.1832pt too wide) in paragraph at lines 438--438
@@ -1396,13 +1403,13 @@ Overfull \hbox (41.1832pt too wide) in paragraph at lines 438--438
 w . fierceelectronics .
  []
 
-[44]
-Cap\'{\i }tulo 15.
-(n-anexos.tex) [45
+[46]
+Cap\'{\i }tulo 16.
+(n-anexos.tex) [47
 
 ]
 No file z-main.gls.
-[46] (z-main.aux
+[48] (z-main.aux
 LaTeX Info: Redefining \sptext on input line 9.
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
@@ -1415,41 +1422,42 @@ LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `z-main.out' has not changed.
-(rerunfilecheck)             Checksum: CD8CFF0D8764747A52C3B6F785B81566;3330.
+(rerunfilecheck)             Checksum: 33B537DE0ED59EE621EE144C1625F6BF;4714.
 Package logreq Info: Writing requests to 'z-main.run.xml'.
 \openout1 = `z-main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29604 strings out of 474718
- 533434 string characters out of 5758272
- 1939036 words of memory out of 5000000
- 50987 multiletter control sequences out of 15000+600000
- 574257 words of font info for 70 fonts, out of 8000000 for 9000
+ 29624 strings out of 474718
+ 533673 string characters out of 5758272
+ 1940036 words of memory out of 5000000
+ 50995 multiletter control sequences out of 15000+600000
+ 574956 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,7n,93p,2343b,2747s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\gerar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm
 0800.pk> <C:\Users\gerar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\ectt1095.pk> <C:\Users\gerar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\ecrm1000.pk> <C:\Users\gerar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
-pen/ec/dpi600\ecbi1095.pk> <C:\Users\gerar\AppData\Local\MiKTeX\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\gerar\AppData\Local\MiKTeX\fonts/pk/
+/dpi600\ecbi1200.pk> <C:\Users\gerar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\ecrm1000.pk> <C:\Users\gerar\AppData\Local\MiKTeX\fonts/pk/ljfour
+/jknappen/ec/dpi600\ecbi1095.pk> <C:\Users\gerar\AppData\Local\MiKTeX\fonts/pk/
 ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\gerar\AppData\Local\MiKTeX\fon
 ts/pk/ljfour/jknappen/ec/dpi600\ecss2488.pk> <C:\Users\gerar\AppData\Local\MiKT
-eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\gerar\AppData\Loca
-l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc1095.pk> <C:\Users\gerar\AppDat
-a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\gerar\
-AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1095.pk> <C:\Users\
-gerar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1440.pk> <C:\
-Users\gerar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk
+eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\gerar\AppData\Loca
+l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\gerar\AppDat
+a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc1095.pk> <C:\Users\gerar\
+AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\
+gerar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1095.pk> <C:\
+Users\gerar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1440.pk
 > <C:\Users\gerar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1
-440.pk> <C:\Users\gerar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600
-\ecbx1440.pk> <C:\Users\gerar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/
-dpi600\ecrm1728.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy
-10.pfb>
-Output written on z-main.pdf (66 pages, 873658 bytes).
+200.pk> <C:\Users\gerar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600
+\ecrm1440.pk> <C:\Users\gerar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/
+dpi600\ecbx1440.pk> <C:\Users\gerar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknapp
+en/ec/dpi600\ecrm1728.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb>
+Output written on z-main.pdf (68 pages, 888783 bytes).
 PDF statistics:
- 1308 PDF objects out of 1440 (max. 8388607)
- 186 named destinations out of 1000 (max. 500000)
- 262 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1374 PDF objects out of 1440 (max. 8388607)
+ 197 named destinations out of 1000 (max. 500000)
+ 318 words of extra memory for PDF output out of 10000 (max. 10000000)
 

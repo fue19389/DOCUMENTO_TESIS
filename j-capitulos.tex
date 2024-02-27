@@ -1,21 +1,19 @@
 \chapter{Selección de hardware}
 
+
 \section{Sensor óptico}
 
 \subsection{Cámara integrada en laptop}
 
 Como primer recurso se tomó en cuenta el uso de la cámara incorporada en una laptop, dado que cualquier persona que esté trabajando en una, puede utilizar dicha herramienta, ahorrando así la compra de un módulo externo. Dicho sistema de cámara integrada puede variar su resolución desde los 0.4 (848$\times$480) Megapíxeles hasta los 2.1(1920$\times$1080). Este módulo se encuentra integrado en una laptop \textit{Lenovo IdeaPad Flex 5 16IAU7} y es fabricado por la empresa \textit{SunplusIT}, la cual es una empresa líder en la manufactura y distribución de chips para multimedia y aplicaciones automotrices, así como el proveedor de cámaras integradas para la empresa \textit{Lenovo}, por lo cual la replicabilidad de las secciones realizadas con dicho sensor es alta.
 
+\section{Transmisión de datos}
+\section{Agente robótico}
+
 %Esta etapa requiere verificar la disponibilidad de componentes a nivel local, tanto universitario y a nivel de país, para poder determinar el alcance de los prototipos. Luego de obtener el listado de opciones de sensores, se podrá hacer un análisis de la documentación para cada sensor y poder establecer el enfoque que se le dará, según las características del mismo. También se analizará la compatibilidad de cada sensor con diferentes lenguajes de programación y/o plataformas ya existentes. También, en esta etapa se realizará la búsqueda de robots disponibles para la implementación de los algoritmos propuestos. Por último, también se analizará cuales sensores externos (además de la cámara) se utilizarán para la parte de corrección de movimiento.
+\chapter{Bases de datos}
 
-\chapter{Software, datos y algoritmos}
-
-\section{Lenguaje de programación}
-Inicialmente se inicia a trabajar utilizando herramientas presentadas en cursos de robótica, en este caso, se utiliza Python como lenguaje de programación. Dicha selección, resulta de la compatibilidad que tiene con \textit{OpenCV}, una librería utilizada para poder realizar aplicaciones de visión por computadora, que funciona tanto para leer las imágenes de entrenamiento a utilizar en el modelo de \textit{Machine Learning} como para la captura de imágenes en tiempo real. 
-
-\section{Bases de datos}
-
-\subsection{ICPR}
+\section{ICPR}
 
 Al inicio se realizó una búsqueda de bases de datos que tuvieran diferentes rostros posicionados en distintos ángulos. Sin embargo, hubo una única base de datos pública publicada por la \textit{ICPR} \textit{(International Workshop on Visual Observation of Deictic Gestures)}, en Cambridge, Reino Unido, con  2790 imágenes disponibles para cualquier propósito. En esta base de datos cuenta con 15 sujetos de prueba, a cada sujeto se le realizaron dos pruebas y en cada prueba se realizó un total de 93 fotografías. El grupo de imágenes se obtuvieron al mezclar los siguientes ángulos: 7 de inclinación (vertical) y 13 panorámicos (horizontal) además de una dos fotografías extra, una en la posición completamente hacia arriba y otra completamente hacia abajo. Las imágenes en esta base de datos se encuentran en un formato JPG, además cada imagen cuenta con un documento de texto que contiene: el nombre del archivo y el centro en el eje X, en el eje Y, el alto y el ancho de la cara correspondiente. \cite{Gourier_Hall_Crowley}
 
@@ -35,9 +33,9 @@ Las fotografías de la base de datos se encuentran nombradas en primer lugar por
 	\label{fig:img1}
 \end{figure}
 
-Además de este orden, todas las series de fotografías iniciaban con la imagen de la cabeza completamente hacia arriba y finalizaban con la posición completamente abajo, de frente para ambas. Dado que se tenían 15 sujetos de prueba, se procedió a guardar los archivos JPG de 11 (2046 imágenes) sujetos en un directorio de entrenamiento y los 4 (744 imágenes) restantes en el de pruebas. Al tener en cuenta el orden de los archivos y la cantidad en cada directorio se procedió a realizar las etiquetas por medio de un documento \textit[Excel]con formato \textit[.xlsx]. En dicho documento se creó una hoja para cada grupo de etiquetas, esto quiere decir, una hoja para etiquetas de entrenamiento y otra para etiquetas de prueba.
+Además de este orden, todas las series de fotografías iniciaban con la imagen de la cabeza completamente hacia arriba y finalizaban con la posición completamente abajo, de frente para ambas. Dado que se tenían 15 sujetos de prueba, se procedió a guardar los archivos JPG de 11 (2046 imágenes) sujetos en un directorio de entrenamiento y los 4 (744 imágenes) restantes en el de pruebas. Al tener en cuenta el orden de los archivos y la cantidad en cada directorio se procedió a realizar las etiquetas por medio de un documento \textit{Excel}con formato \textit{.xlsx}. En dicho documento se creó una hoja para cada grupo de etiquetas, esto quiere decir, una hoja para etiquetas de entrenamiento y otra para etiquetas de prueba. Por lo que, en cada hoja se puede encontrar una columna con las etiquetas en el orden establecido en la Figura 2.
 
-\subsubsection{Etiquetas para clasificación}
+\subsection{Etiquetas para clasificación}
 
 Para la primera experimentación se consideró clasificar las imágenes en 9 clases diferentes, de tal manera que la orientación de la cabeza respecto de la cámara funcionara de manera similar a una palanca de mandos analógica. A continuación se presenta una visualización de dicha clasificación:
 
@@ -65,7 +63,7 @@ Utilizando esta cantidad de clases, se realizaron dos formas de etiquetado en la
 	\label{fig:img4}
 \end{figure}
 
-Luego de pruebas realizadas con resultados no satisfactorios en la sección de algoritmos para visión por computadora, la siguiente experimentación consistió en reducir la cantidad de clases a 6. En este caso los movimientos hacia atrás no funcionan como retroceso sino por medio de un giro completo del agente móvil. Y la clasificación resultante se muestra a continuación:
+Luego de pruebas realizadas con resultados no satisfactorios en la sección de algoritmos para visión por computadora, la siguiente experimentación consistió en reducir la cantidad de clases a 6. En este caso para realizar un movimiento hacia atrás, se requiere un giro completo, en vez del sistema de joystick propuesto anteriormente. La división de clases se muestra a continuación:
 
 \begin{figure}[H]
 	\centering
@@ -89,10 +87,36 @@ Luego de pruebas realizadas con resultados no satisfactorios en la sección de a
 \end{figure}
 
 
+\chapter{Software y algoritmos}
+\section{Lenguaje de programación}
+Inicialmente se inicia a trabajar utilizando herramientas presentadas en cursos de robótica, en este caso, se utiliza Python como lenguaje de programación. Dicha selección, resulta de la compatibilidad que tiene con \textit{OpenCV}, una librería utilizada para poder realizar aplicaciones de visión por computadora, que funciona tanto para leer las imágenes de entrenamiento a utilizar en el modelo de \textit{Machine Learning} como para la captura de imágenes en tiempo real. Es importante mencionar que, para realizar la programación, se optó por utilizar el IDE (Entorno de desarrollo integrado) \textit{PyCharm Community Edition}, dado que cuenta con comandos integrados para manejar entornos virtuales y conexiones con \textit{Git} y \textit{Github}.
+
 \section{Algoritmos para visión por computadora}
+\subsection{Preprocesado de imágenes}
 
 
-\chapter{Algoritmo de traducción}
+Inicialmente se diseñó un código para extraer fotografías desde un directorio, etiquetas desde un documento con extensión \textit{.xlsx} y luego transformarlos en matrices de datos que para poder ser utilizados en los proceso de \textit{Machine Learning}. Para la realización de este código, se utilizaron las siguientes librerías: \textit{OS}, \textit{CV2 (OpenCV)}, \textit{Numpy} y \textit{Pandas}. Además de esto el proceso para la realización del código fue el siguiente: 
+
+\subsubsection{Transformación de fotografías}
+En este caso, se utilizó la librería \textit{OS} para crear una lista con nombres en formato cadena de los archivos en un directorio dado. Luego, utilizando la librería \textit{Numpy}, se creó una matriz de ceros para guardar todas las fotografías convertidas en formato de matriz. Para realizar la conversión, previamente se realizó una prueba para obtener las dimensiones mínimas con las que puede trabajar la cámara integrada con la librería \textit{CV2}, cuyo tamaño es 320 $\times$ 180 píxeles. Después, dentro de un bucle \textit{for} se utilizó la librería \textit{CV2} obtener la matriz de pixeles de cada fotografía, ajustar el tamaño a las dimensiones encontradas y luego transformar el canal de color por defecto BGR \textit{(Blue, Green, Red)} a RGB \textit{(Red, Green, Blue)}. 
+
+\subsubsection{Transformación de etiquetas}
+
+Para transformar las etiquetas en matrices de datos, únicamente se requirió la librería \textit{Pandas}, ya que nos permite utilizar una función específica para leer documentos con formato \textit{.xlsx}, así como acceder a las hojas internas del documento. Al guardar el resultado de esta función el siguiente paso es convertirlo a un formato de matriz con funciones de \textit{Numpy}. 
+
+\subsubsection{Exportación de datos finales}
+
+La librería \textit{Numpy} cuenta con una función para exportar matrices de datos de manera individual (una variable a la vez), o bien agruparlas en un solo archivo. En este caso, se guardaron las matrices de fotografías en un solo archivo, dado que estas solo cambiarán si se agregan más fotografías. Por otro lado, las matrices de etiquetas fueron exportadas de manera individual dado que se cuenta con diferentes grupos.
+
+\subsection{Entrenamiento de modelos de \textit{machine learning}}
+
+Para las primeras pruebas se utilizó el framework \textit{TensorFlow y Keras} para poder realizar los diferentes modelos de \textit{Machine Learning} para reconocimiento de orientación de cabeza, utilizando la data obtenida de la base de datos de ICPR. 
+
+\subsection{Ajuste de modelos preentreanados}
+\subsection{Pruebas en tiempo real}
+
+
+\chapter{Traducción algoritmo a comandos}
 
 %Esta etapa contempla la iteración de pruebas para conseguir un algoritmo que funcione de manera efectiva al reconocer los gestos y movimientos de la cabeza del usuario. Luego de obtener un reconocimiento efectivo, se generarán diferentes ítems, clases o divisiones para cada tipo de gestos. Al tener definida la lista de tipos, se procede a utilizarlos para generar comandos genéricos para poder utilizar los agentes robóticos móviles simulados y físicos.
 
