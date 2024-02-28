@@ -94,8 +94,6 @@ Dado que los resultados con los modelos de de reconocimiento de orientación no 
 \section{ColorFET}
 \chapter{Algoritmos para visión por computadora}
 \section{Preprocesado de imágenes}
-
-
 Inicialmente se diseñó un código para extraer fotografías desde un directorio, etiquetas desde un documento con extensión \textit{.xlsx} y luego transformarlos en matrices de datos que para poder ser utilizados en los proceso de \textit{Machine Learning}. Para la realización de este código, se utilizaron las siguientes librerías: \textit{OS}, \textit{CV2 (OpenCV)}, \textit{Numpy} y \textit{Pandas}. Además de esto el proceso para la realización del código fue el siguiente: 
 
 \subsection{Transformación de fotografías}
@@ -107,7 +105,7 @@ Para transformar las etiquetas en matrices de datos, únicamente se requirió la
 
 \subsection{Exportación de datos finales}
 
-Antes de realizar la exportación de datos, es importante aplicar una transformación de tipo flotante a entero, en las matrices, y de esta manera se ahorra espacio en el disco duro. Ahora bien, la librería \textit{Numpy} cuenta con una función para exportar matrices de datos de manera individual (una variable a la vez), o bien agruparlas en un solo archivo. En este caso, se guardaron las matrices de fotografías en un solo archivo, dado que estas solo cambiarán si se agregan más fotografías. Por otro lado, las matrices de etiquetas fueron exportadas de manera individual dado que se cuenta con diferentes grupos.
+Antes de realizar la exportación de datos, es importante aplicar una transformación de tipo flotante a entero, en las matrices, y de esta manera se ahorra espacio en el disco duro. Ahora bien, la librería \textit{Numpy} cuenta con una función para exportar matrices de datos de manera individual (una variable a la vez), o bien agruparlas en un solo archivo. En este caso, dado que se necesitan realizar diferentes pruebas, se estará exportando de manera individual, en cambio para los resultados finales, se utilizará la función de guardar de manera agrupada. 
 
 \section{Entrenamiento de modelos de \textit{machine learning}}
 Para las primeras pruebas se utilizó el framework \textit{TensorFlow y Keras} para poder realizar los diferentes modelos de \textit{Machine Learning} para reconocimiento de orientación de cabeza, utilizando las matrices de datos obtenidas a partir de la base de datos de ICPR. Para este código se utilizaron las librerías \textit{TensorFlow}, \textit{Matplotlib}, \textit{Numpy} y \textit{Seaborn}. El código fue realizado de la siguiente manera:
