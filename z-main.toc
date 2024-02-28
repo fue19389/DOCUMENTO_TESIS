@@ -21,21 +21,24 @@
 \contentsline {chapter}{\numberline {8}Bases de datos}{27}{chapter.74}%
 \contentsline {section}{\numberline {8.1}ICPR}{27}{section.75}%
 \contentsline {subsection}{\numberline {8.1.1}Etiquetas para clasificación}{29}{subsection.78}%
-\contentsline {subsection}{\numberline {8.1.2}Fotografías personales}{32}{subsection.85}%
-\contentsline {section}{\numberline {8.2}ColorFET}{32}{section.86}%
-\contentsline {chapter}{\numberline {9}Algoritmos para visión por computadora}{33}{chapter.87}%
-\contentsline {section}{\numberline {9.1}Preprocesado de imágenes}{33}{section.88}%
-\contentsline {subsection}{\numberline {9.1.1}Transformación de fotografías}{33}{subsection.89}%
-\contentsline {subsection}{\numberline {9.1.2}Transformación de etiquetas}{33}{subsection.90}%
-\contentsline {subsection}{\numberline {9.1.3}Exportación de datos finales}{34}{subsection.91}%
-\contentsline {section}{\numberline {9.2}Entrenamiento de modelos de \textit {machine learning}}{34}{section.92}%
-\contentsline {subsection}{\numberline {9.2.1}Extracción de datos previamente procesados}{34}{subsection.93}%
-\contentsline {subsection}{\numberline {9.2.2}Modelo de reconocimiento de orientación de cabeza}{34}{subsection.94}%
-\contentsline {section}{\numberline {9.3}Ajuste de modelos preentreanados}{44}{section.103}%
-\contentsline {section}{\numberline {9.4}Pruebas en tiempo real}{44}{section.104}%
-\contentsline {chapter}{\numberline {10}Simulaciones}{45}{chapter.105}%
-\contentsline {chapter}{\numberline {11}Pruebas físicas}{47}{chapter.106}%
-\contentsline {chapter}{\numberline {12}Conclusiones}{49}{chapter.107}%
-\contentsline {chapter}{\numberline {13}Recomendaciones}{51}{chapter.108}%
-\contentsline {chapter}{\numberline {14}Bibliograf\'{\i }a}{53}{chapter.110}%
-\contentsline {chapter}{\numberline {15}Anexos}{55}{chapter.111}%
+\contentsline {subsection}{\numberline {8.1.2}Etiquetas parte 2}{32}{subsection.85}%
+\contentsline {subsection}{\numberline {8.1.3}Fotografías personales}{32}{subsection.86}%
+\contentsline {subsection}{\numberline {8.1.4}Fotografías personales parte 2}{33}{subsection.87}%
+\contentsline {section}{\numberline {8.2}ColorFET}{33}{section.88}%
+\contentsline {chapter}{\numberline {9}Algoritmos para visión por computadora}{35}{chapter.89}%
+\contentsline {section}{\numberline {9.1}Preprocesado de imágenes}{35}{section.90}%
+\contentsline {subsection}{\numberline {9.1.1}Transformación de fotografías}{35}{subsection.91}%
+\contentsline {subsection}{\numberline {9.1.2}Transformación de etiquetas}{35}{subsection.92}%
+\contentsline {subsection}{\numberline {9.1.3}Exportación de datos finales}{36}{subsection.93}%
+\contentsline {section}{\numberline {9.2}Entrenamiento de modelos de \textit {machine learning}}{36}{section.94}%
+\contentsline {subsection}{\numberline {9.2.1}Extracción de datos previamente procesados}{36}{subsection.95}%
+\contentsline {subsection}{\numberline {9.2.2}Modelo de reconocimiento de orientación de cabeza}{36}{subsection.96}%
+\contentsline {subsection}{\numberline {9.2.3}Modelo parte 2: 4 y 3 clases}{45}{subsection.105}%
+\contentsline {section}{\numberline {9.3}Ajuste de modelos preentreanados}{47}{section.108}%
+\contentsline {section}{\numberline {9.4}Pruebas en tiempo real}{47}{section.109}%
+\contentsline {chapter}{\numberline {10}Simulaciones}{49}{chapter.110}%
+\contentsline {chapter}{\numberline {11}Pruebas físicas}{51}{chapter.111}%
+\contentsline {chapter}{\numberline {12}Conclusiones}{53}{chapter.112}%
+\contentsline {chapter}{\numberline {13}Recomendaciones}{55}{chapter.113}%
+\contentsline {chapter}{\numberline {14}Bibliograf\'{\i }a}{57}{chapter.115}%
+\contentsline {chapter}{\numberline {15}Anexos}{59}{chapter.116}%

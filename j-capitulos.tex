@@ -88,9 +88,18 @@ Luego de pruebas realizadas con resultados no satisfactorios en la sección de a
 	\label{fig:img8}
 \end{figure}
 
+\subsection{Etiquetas parte 2}
+En esta ocasión se cuenta con 4 series nuevas de fotografías del usuario, en este caso Gerardo Fuentes (autor), que se agregan al set de entrenamiento, sin embargo, también se requerirá realizar una disminución de clases nuevamente. La nueva cantidad para la primera es de 4, y se tomarán en cuenta la posición de la cabeza en estado neutro, a los lados y hacia arriba o abajo. Luego de obtener el resultado, se realizará una nueva prueba de etiquetas con únicamente 3 clases, al centro y a los lados. 
+
 
 \subsection{Fotografías personales}
-Dado que los resultados con los modelos de de reconocimiento de orientación no fueron los esperados en ningún caso, se procedió a realizar dos series de fotografías personales con la cámara integrada. Cada serie consta de 9 fotografías con posiciones que simulan las 9 clases inicialmente definidas a una distancia de 45 cm aproximadamente. Una de las series fue tomada en un salón de laboratorio del Departamento de Ingeniería Electrónica, Mecatrónica y Biomédica de la Universidad del Valle de Guatemala y la otra fue realizada en un espacio de trabajo en la casa de Gerardo Andres Fuentes Bámaca (autor). Luego, las fotografías fueron renombradas de tal manera que se pudiera conocer su orden y posición en la lista de imágenes del grupo de entrenamiento. De esta manera, fueron agregadas las etiquetas correspondientes en el documento de etiquetas con extensión \textit{.xlsx}, tanto para los casos de 9 y 6 clases.
+Dado que los resultados con los modelos de de reconocimiento de orientación no fueron los esperados en ningún caso, se procedió a realizar 2 series de fotografías personales con la cámara integrada. Cada serie consta de 9 fotografías con posiciones que simulan las 9 clases inicialmente definidas a una distancia de 45 cm aproximadamente. Las series fueron capturadas en un salón de laboratorio del Departamento de Ingeniería Electrónica, Mecatrónica y Biomédica de la Universidad del Valle de Guatemala y en espacio diversos en la casa de Gerardo Andres Fuentes Bámaca (autor). Luego, las fotografías fueron renombradas de tal manera que se pudiera conocer su orden y posición en la lista de imágenes del grupo de entrenamiento. De esta manera, fueron agregadas las etiquetas correspondientes en el documento de etiquetas con extensión \textit{.xlsx}, tanto para los casos de 9 y 6 clases.
+
+\subsection{Fotografías personales parte 2}
+En esta ocasión, realizaron dos nuevas series de fotografías en casa de Gerardo Fuentes (autor), con las cuales se llega a un total de 4 series. Dado que las pruebas con el rostro del autor ser realizan con la actualización de cámara en tiempo real, las nuevas series de fotografías serán agregadas al set de entrenamiento. De esta manera, se generarán nuevos modelos de reconocimiento de orientación de cabeza. 
+
+
+
 \section{ColorFET}
 \chapter{Algoritmos para visión por computadora}
 \section{Preprocesado de imágenes}
@@ -184,6 +193,45 @@ En las figuras 9 a las 16 se puede observar que se produce un sobreajuste en tod
 	\item Realizar un sobreajuste enfocado en el rostro del usuario.
 \end{itemize}
 
+\subsection{Modelo parte 2: 4 y 3 clases}
+
+A continuación se muestran las gráficas descriptivas para el modelo de 4 clases:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.65]{figures/LA4.png}
+	\caption{Pérdida y exactitud del modelo con 4 clases}
+	\label{fig:img17}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.75]{figures/CM4.png}
+	\caption{Matriz de confusión del modelo con 4 clases}
+	\label{fig:img18}
+\end{figure}
+
+En esta ocasión se puede observar en las figuras 17 y 18 que los resultados de sobreajuste se mantienen en los valores de convergencia que se tenía en los modelos anteriores, sin embargo, la matriz de confusión para el modelo de 4 clases tiene un pésimo resultado para estimar las posiciones centrales (2 y 3 en la gráfica), lo cual se debe a que la cantidad de fotografías que fueron etiquetadas en estas posiciones es mucho menor en comparación con las de los lados.\par
+
+A continuación se muestran las gráficas descriptivas para el modelo de 3 clases:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.65]{figures/LA5.png}
+	\caption{Pérdida y exactitud del modelo con 4 clases}
+	\label{fig:img19}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.75]{figures/CM5.png}
+	\caption{Matriz de confusión del modelo con 4 clases}
+	\label{fig:img20}
+\end{figure}
+
+En las figuras 19 y  20, se observa que hubo una mejora en cuanto a la exactitud al predecir nuevas imágenes, sin embargo, esto aún es un valor que no permite una experiencia fluida para el usuario. Además es importante recalcar que para todas las gráficas, se ha utilizado como grupo de entrenamiento las fotografías de 11 de los sujetos de la base de datos ICPR y para el grupo de validación o prueba, se han utilizado las fotografías de los 4 restantes.\par
+
+A continuación se seguirá entrenando el modelo con fotografías del autor y luego se añadirán también fotografías del usuario al grupo de validación o prueba.
 
 \section{Ajuste de modelos preentreanados}
 \section{Pruebas en tiempo real}
