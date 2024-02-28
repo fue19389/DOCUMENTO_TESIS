@@ -190,7 +190,9 @@ En las figuras 9 a las 16 se puede observar que se produce un sobreajuste en tod
 \section{Ajuste de modelos preentreanados}
 \section{Pruebas en tiempo real}
 
-\chapter{Traducción algoritmo a comandos}
+Para las primeras pruebas se utilizaron los 4 modelos exportados, la cámara integrada y un bucle infinito. En este caso es utilizaron las siguientes librerías \textit{CV2}, \textit{TensorFlow} y \textit{Numpy}. El primer paso de la configuración fue cargar el modelo previamente exportado. Luego, se realiza la inicialización de la cámara integrada por medio de \textit{OpenCV}, y se ajusta el tamaño de la imagen a obtener por medio de comandos de la librería \textit{CV2}. 
+Ahora bien, en el bucle infinito se realiza una captura de la imagen obtenida por la cámara, la cual se guarda como una matrices de píxeles. Luego, se cambia el canal de BGR a RGB, se normaliza la matriz al dividirla entre 255, y se cambia la matriz de tipo flotante a entero. Después, por medio de la librería \textit{TensorFlow} se utiliza la función Predecir, la cual devuelve una vector con el porcentaje de similitud predecido para cada clase. Finalmente, se aplica la función de \textit{Numpy} para obtener el valor más máximo dentro de dicho vector de predicciones y dicho valor se imprime en la consola.
+Al realizar dicho proceso, se comprobó que los resultados de las gráficas descriptivas de los modelos entrenados son congruentes, dado que los resultados no fueron satisfactorios al detectar las posiciones inferior izquierda de la cabeza y la alta fluctuación entre las posiciones centrales.
 
 %Esta etapa contempla la iteración de pruebas para conseguir un algoritmo que funcione de manera efectiva al reconocer los gestos y movimientos de la cabeza del usuario. Luego de obtener un reconocimiento efectivo, se generarán diferentes ítems, clases o divisiones para cada tipo de gestos. Al tener definida la lista de tipos, se procede a utilizarlos para generar comandos genéricos para poder utilizar los agentes robóticos móviles simulados y físicos.
 
