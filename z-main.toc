@@ -33,12 +33,16 @@
 \contentsline {section}{\numberline {9.2}Entrenamiento de modelos de \textit {machine learning}}{36}{section.94}%
 \contentsline {subsection}{\numberline {9.2.1}Extracción de datos previamente procesados}{36}{subsection.95}%
 \contentsline {subsection}{\numberline {9.2.2}Modelo de reconocimiento de orientación de cabeza}{36}{subsection.96}%
-\contentsline {subsection}{\numberline {9.2.3}Modelo parte 2: 4 y 3 clases}{45}{subsection.105}%
-\contentsline {section}{\numberline {9.3}Ajuste de modelos preentreanados}{47}{section.108}%
-\contentsline {section}{\numberline {9.4}Pruebas en tiempo real}{47}{section.109}%
-\contentsline {chapter}{\numberline {10}Simulaciones}{49}{chapter.110}%
-\contentsline {chapter}{\numberline {11}Pruebas físicas}{51}{chapter.111}%
-\contentsline {chapter}{\numberline {12}Conclusiones}{53}{chapter.112}%
-\contentsline {chapter}{\numberline {13}Recomendaciones}{55}{chapter.113}%
-\contentsline {chapter}{\numberline {14}Bibliograf\'{\i }a}{57}{chapter.115}%
-\contentsline {chapter}{\numberline {15}Anexos}{59}{chapter.116}%
+\contentsline {subsection}{\numberline {9.2.3}Modelo parte 2: 4 y 3 clases}{46}{subsection.105}%
+\contentsline {section}{\numberline {9.3}Ajuste de modelos preentreanados}{49}{section.110}%
+\contentsline {section}{\numberline {9.4}Pruebas en tiempo real}{49}{section.111}%
+\contentsline {chapter}{\numberline {10}Simulaciones}{51}{chapter.112}%
+\contentsline {section}{\numberline {10.1}Modelos con resultado en la consola}{51}{section.113}%
+\contentsline {subsection}{\numberline {10.1.1}Modelos de 9 y 6 clases}{51}{subsection.114}%
+\contentsline {subsection}{\numberline {10.1.2}Modelos de 4 y 3 clases}{51}{subsection.115}%
+\contentsline {section}{\numberline {10.2}Graficando el movimiento}{52}{section.116}%
+\contentsline {chapter}{\numberline {11}Pruebas físicas}{53}{chapter.117}%
+\contentsline {chapter}{\numberline {12}Conclusiones}{55}{chapter.118}%
+\contentsline {chapter}{\numberline {13}Recomendaciones}{57}{chapter.119}%
+\contentsline {chapter}{\numberline {14}Bibliograf\'{\i }a}{59}{chapter.121}%
+\contentsline {chapter}{\numberline {15}Anexos}{61}{chapter.122}%

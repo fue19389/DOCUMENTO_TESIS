@@ -1,0 +1,8 @@
+\section{Modelos con resultado en la consola}
+En la consola de Pycharm, se imprime de manera continua el valor de la clase predicha por el modelo en tiempo real, por lo que la tarea del usuario es realizar los movimientos establecidos por las etiquetas. 
+\subsection{Modelos de 9 y 6 clases}
+En el caso de los primeros modelos realizados, la experiencia fue pésima, dado que el modelo predecía en su mayoría las posiciones inferiores, tanto para los modelos con 9 y 6 clases. Se intentó realizar dicho proceso de movimiento a diferentes distancias de la cámara pero el resultado fue el mismo.
+\subsection{Modelos de 4 y 3 clases}
+En cuanto a los modelos de 4 y 3 clases, el resultado depende de la distancia de separación del rostro del usuario y de la cámara. A más de 30 cm de distancia, las predicciones son bastante malas, dado que muchas veces se la predicción es errónea en cuanto al lado de la orientación de la cabeza. Sin embargo, al realizar pruebas justo a 30 cm de la cámara, tanto para el modelo de 3 y 4 clases, el resultado fue satisfactorio. Esto puede indicar que falta entrenar al modelo con diferentes tipos de fondos, dado que cuando la cámara capta en su mayoría el rostro de la persona, las predicciones son buenas. Además, se realizó la prueba a más de 30 cm en diferentes espacios de trabajo en la casa de Gerardo Fuentes, y los resultados no fueron buenos, hasta que se realizó el acercamiento nuevamente. 
+
+\section{Graficando el movimiento}

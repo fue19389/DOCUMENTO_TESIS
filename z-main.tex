@@ -396,14 +396,66 @@
 	\fi
 \fi
 
-% CAPÍTULOS
+% CAPÍTULO SELECCION
 % ------------------------------------------------------------------------------
-\newpage
-\ifdefined\parpordefecto
-	\defaultparformat{j-capitulos}
-\else
-	\input{j-capitulos}
+\ifdefined\CAPseleccion
+	\newpage	
+	\chapter{Selección de hardware y software}
+	\ifdefined\parpordefecto
+		\defaultparformat{j-seleccion}
+	\else
+		\input{j-seleccion}
+	\fi
 \fi
+
+% CAPÍTULOS BASES DE DATOS
+% ------------------------------------------------------------------------------
+\ifdefined\CAPbasesdatos
+	\newpage	
+	\chapter{Bases de datos}
+	\ifdefined\parpordefecto
+		\defaultparformat{p-basesdatos}
+	\else
+		\input{p-basesdatos}
+	\fi
+\fi
+
+% CAPÍTULOS ALGORITMOS
+% ------------------------------------------------------------------------------
+\ifdefined\CAPalgoritmos
+	\newpage	
+	\chapter{Algoritmos para visión por computadora}
+	\ifdefined\parpordefecto
+		\defaultparformat{q-algoritmos}
+	\else
+		\input{q-algoritmos}
+	\fi
+\fi
+
+% CAPÍTULOS SIMULACIONES
+% ------------------------------------------------------------------------------
+\ifdefined\CAPsimulaciones
+	\newpage	
+	\chapter{Simulaciones}
+	\ifdefined\parpordefecto
+		\defaultparformat{r-simulaciones}
+	\else
+		\input{r-simulaciones}
+	\fi
+\fi
+
+% CAPÍTULOS PRUEBAS FISICAS
+% ------------------------------------------------------------------------------
+\ifdefined\CAPpruebasfisicas
+	\newpage	
+	\chapter{Pruebas físicas}
+	\ifdefined\parpordefecto
+		\defaultparformat{s-pruebasfisicas}
+	\else
+		\input{s-pruebasfisicas}
+	\fi
+\fi
+
 
 % CONCLUSIONES
 % ------------------------------------------------------------------------------
