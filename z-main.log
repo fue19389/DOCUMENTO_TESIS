@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.2)  29 FEB 2024 00:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.2)  19 MAR 2024 21:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1247,14 +1247,14 @@ Cap\'{\i }tulo 6.
 
 ]
 Cap\'{\i }tulo 7.
-(j-seleccion.tex)
-Underfull \vbox (badness 2384) has occurred while \output is active []
+(j-seleccion.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [25]
+ [25])
 [26]
 Cap\'{\i }tulo 8.
 (p-basesdatos.tex
-<figures/tiltpan.png, id=617, 460.72125pt x 215.80624pt>
+<figures/tiltpan.png, id=631, 460.72125pt x 215.80624pt>
 File: figures/tiltpan.png Graphic file (type png)
 <use figures/tiltpan.png>
 Package pdftex.def Info: figures/tiltpan.png  used on input line 9.
@@ -1270,7 +1270,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [27
 
 ]
-<figures/faceorder.png, id=625, 460.72125pt x 215.80624pt>
+<figures/faceorder.png, id=639, 460.72125pt x 215.80624pt>
 File: figures/faceorder.png Graphic file (type png)
 <use figures/faceorder.png>
 Package pdftex.def Info: figures/faceorder.png  used on input line 16.
@@ -1281,7 +1281,7 @@ Overfull \hbox (27.10011pt too wide) in paragraph at lines 16--17
  []
 
 [28 <./figures/tiltpan.png> <./figures/faceorder.png>]
-<figures/clasi0.png, id=633, 460.72125pt x 215.80624pt>
+<figures/clasi0.png, id=647, 460.72125pt x 215.80624pt>
 File: figures/clasi0.png Graphic file (type png)
 <use figures/clasi0.png>
 Package pdftex.def Info: figures/clasi0.png  used on input line 29.
@@ -1291,7 +1291,7 @@ Overfull \hbox (27.10011pt too wide) in paragraph at lines 29--30
  [][] 
  []
 
-<figures/clasi01.png, id=634, 460.72125pt x 215.80624pt>
+<figures/clasi01.png, id=648, 460.72125pt x 215.80624pt>
 File: figures/clasi01.png Graphic file (type png)
 <use figures/clasi01.png>
 Package pdftex.def Info: figures/clasi01.png  used on input line 39.
@@ -1305,7 +1305,7 @@ Overfull \hbox (27.10011pt too wide) in paragraph at lines 39--40
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [29 <./figures/clasi0.png>]
-<figures/clasi02.png, id=641, 460.72125pt x 215.80624pt>
+<figures/clasi02.png, id=655, 460.72125pt x 215.80624pt>
 File: figures/clasi02.png Graphic file (type png)
 <use figures/clasi02.png>
 Package pdftex.def Info: figures/clasi02.png  used on input line 46.
@@ -1315,7 +1315,7 @@ Overfull \hbox (27.10011pt too wide) in paragraph at lines 46--47
  [][] 
  []
 
-<figures/clasi1.png, id=642, 460.72125pt x 215.80624pt>
+<figures/clasi1.png, id=656, 460.72125pt x 215.80624pt>
 File: figures/clasi1.png Graphic file (type png)
 <use figures/clasi1.png>
 Package pdftex.def Info: figures/clasi1.png  used on input line 55.
@@ -1329,7 +1329,7 @@ Overfull \hbox (27.10011pt too wide) in paragraph at lines 55--56
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [30 <./figures/clasi01.png> <./figures/clasi02.png>]
-<figures/clasi2.png, id=649, 460.72125pt x 215.80624pt>
+<figures/clasi2.png, id=663, 460.72125pt x 215.80624pt>
 File: figures/clasi2.png Graphic file (type png)
 <use figures/clasi2.png>
 Package pdftex.def Info: figures/clasi2.png  used on input line 62.
@@ -1339,7 +1339,7 @@ Overfull \hbox (27.10011pt too wide) in paragraph at lines 62--63
  [][] 
  []
 
-<figures/clasi3.png, id=650, 460.72125pt x 215.80624pt>
+<figures/clasi3.png, id=664, 460.72125pt x 215.80624pt>
 File: figures/clasi3.png Graphic file (type png)
 <use figures/clasi3.png>
 Package pdftex.def Info: figures/clasi3.png  used on input line 69.
@@ -1352,21 +1352,20 @@ Overfull \hbox (27.10011pt too wide) in paragraph at lines 69--70
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31 <./figures/clasi1.png> <./figures/clasi2.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [32 <./figures/clasi3.png>]) [33] [34
+ [31 <./figures/clasi1.png> <./figures/clasi2.png>]) [32 <./figures/clasi3.png>
+] [33]
+[34
 
 ]
 Cap\'{\i }tulo 9.
 (q-algoritmos.tex [35] [36]
-<figures/LA0.png, id=680, 867.24pt x 867.24pt>
+<figures/LA0.png, id=694, 867.24pt x 867.24pt>
 File: figures/LA0.png Graphic file (type png)
 <use figures/LA0.png>
-Package pdftex.def Info: figures/LA0.png  used on input line 30.
+Package pdftex.def Info: figures/LA0.png  used on input line 34.
 (pdftex.def)             Requested size: 563.69934pt x 563.69934pt.
 
-Overfull \hbox (130.07933pt too wide) in paragraph at lines 30--31
+Overfull \hbox (130.07933pt too wide) in paragraph at lines 34--35
  [][] 
  []
 
@@ -1374,13 +1373,13 @@ Overfull \hbox (130.07933pt too wide) in paragraph at lines 30--31
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [37]
-<figures/CM0.png, id=685, 722.7pt x 505.89pt>
+<figures/CM0.png, id=700, 722.7pt x 505.89pt>
 File: figures/CM0.png Graphic file (type png)
 <use figures/CM0.png>
-Package pdftex.def Info: figures/CM0.png  used on input line 37.
+Package pdftex.def Info: figures/CM0.png  used on input line 41.
 (pdftex.def)             Requested size: 542.02367pt x 379.41655pt.
 
-Overfull \hbox (108.40366pt too wide) in paragraph at lines 37--38
+Overfull \hbox (108.40366pt too wide) in paragraph at lines 41--42
  [][] 
  []
 
@@ -1388,13 +1387,13 @@ Overfull \hbox (108.40366pt too wide) in paragraph at lines 37--38
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [38 <./figures/LA0.png>]
-<figures/LA1.png, id=691, 867.24pt x 867.24pt>
+<figures/LA1.png, id=706, 867.24pt x 867.24pt>
 File: figures/LA1.png Graphic file (type png)
 <use figures/LA1.png>
-Package pdftex.def Info: figures/LA1.png  used on input line 44.
+Package pdftex.def Info: figures/LA1.png  used on input line 48.
 (pdftex.def)             Requested size: 563.69934pt x 563.69934pt.
 
-Overfull \hbox (130.07933pt too wide) in paragraph at lines 44--45
+Overfull \hbox (130.07933pt too wide) in paragraph at lines 48--49
  [][] 
  []
 
@@ -1402,13 +1401,13 @@ Overfull \hbox (130.07933pt too wide) in paragraph at lines 44--45
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [39 <./figures/CM0.png>]
-<figures/CM1.png, id=697, 722.7pt x 505.89pt>
+<figures/CM1.png, id=712, 722.7pt x 505.89pt>
 File: figures/CM1.png Graphic file (type png)
 <use figures/CM1.png>
-Package pdftex.def Info: figures/CM1.png  used on input line 51.
+Package pdftex.def Info: figures/CM1.png  used on input line 55.
 (pdftex.def)             Requested size: 542.02367pt x 379.41655pt.
 
-Overfull \hbox (108.40366pt too wide) in paragraph at lines 51--52
+Overfull \hbox (108.40366pt too wide) in paragraph at lines 55--56
  [][] 
  []
 
@@ -1416,13 +1415,13 @@ Overfull \hbox (108.40366pt too wide) in paragraph at lines 51--52
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [40 <./figures/LA1.png>]
-<figures/LA2.png, id=703, 867.24pt x 867.24pt>
+<figures/LA2.png, id=718, 867.24pt x 867.24pt>
 File: figures/LA2.png Graphic file (type png)
 <use figures/LA2.png>
-Package pdftex.def Info: figures/LA2.png  used on input line 58.
+Package pdftex.def Info: figures/LA2.png  used on input line 62.
 (pdftex.def)             Requested size: 563.69934pt x 563.69934pt.
 
-Overfull \hbox (130.07933pt too wide) in paragraph at lines 58--59
+Overfull \hbox (130.07933pt too wide) in paragraph at lines 62--63
  [][] 
  []
 
@@ -1430,13 +1429,13 @@ Overfull \hbox (130.07933pt too wide) in paragraph at lines 58--59
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [41 <./figures/CM1.png>]
-<figures/CM2.png, id=710, 722.7pt x 505.89pt>
+<figures/CM2.png, id=725, 722.7pt x 505.89pt>
 File: figures/CM2.png Graphic file (type png)
 <use figures/CM2.png>
-Package pdftex.def Info: figures/CM2.png  used on input line 65.
+Package pdftex.def Info: figures/CM2.png  used on input line 69.
 (pdftex.def)             Requested size: 542.02367pt x 379.41655pt.
 
-Overfull \hbox (108.40366pt too wide) in paragraph at lines 65--66
+Overfull \hbox (108.40366pt too wide) in paragraph at lines 69--70
  [][] 
  []
 
@@ -1444,13 +1443,13 @@ Overfull \hbox (108.40366pt too wide) in paragraph at lines 65--66
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [42 <./figures/LA2.png>]
-<figures/LA3.png, id=716, 867.24pt x 867.24pt>
+<figures/LA3.png, id=731, 867.24pt x 867.24pt>
 File: figures/LA3.png Graphic file (type png)
 <use figures/LA3.png>
-Package pdftex.def Info: figures/LA3.png  used on input line 72.
+Package pdftex.def Info: figures/LA3.png  used on input line 76.
 (pdftex.def)             Requested size: 563.69934pt x 563.69934pt.
 
-Overfull \hbox (130.07933pt too wide) in paragraph at lines 72--73
+Overfull \hbox (130.07933pt too wide) in paragraph at lines 76--77
  [][] 
  []
 
@@ -1458,93 +1457,173 @@ Overfull \hbox (130.07933pt too wide) in paragraph at lines 72--73
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [43 <./figures/CM2.png>]
-<figures/CM3.png, id=722, 722.7pt x 505.89pt>
+<figures/CM3.png, id=737, 722.7pt x 505.89pt>
 File: figures/CM3.png Graphic file (type png)
 <use figures/CM3.png>
-Package pdftex.def Info: figures/CM3.png  used on input line 79.
+Package pdftex.def Info: figures/CM3.png  used on input line 83.
 (pdftex.def)             Requested size: 542.02367pt x 379.41655pt.
 
-Overfull \hbox (108.40366pt too wide) in paragraph at lines 79--80
+Overfull \hbox (108.40366pt too wide) in paragraph at lines 83--84
  [][] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [44 <./figures/LA3.png>]
-<figures/LA4.png, id=728, 867.24pt x 867.24pt>
+ [44 <./figures/LA3.png>] [45 <./figures/CM3.png>]
+<figures/LA4.png, id=748, 867.24pt x 867.24pt>
 File: figures/LA4.png Graphic file (type png)
 <use figures/LA4.png>
-Package pdftex.def Info: figures/LA4.png  used on input line 98.
+Package pdftex.def Info: figures/LA4.png  used on input line 101.
 (pdftex.def)             Requested size: 563.69934pt x 563.69934pt.
 
-Overfull \hbox (130.07933pt too wide) in paragraph at lines 98--99
+Overfull \hbox (130.07933pt too wide) in paragraph at lines 101--102
  [][] 
  []
 
-[45 <./figures/CM3.png>]
-<figures/CM4.png, id=734, 722.7pt x 505.89pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [46]
+<figures/CM4.png, id=754, 722.7pt x 505.89pt>
 File: figures/CM4.png Graphic file (type png)
 <use figures/CM4.png>
-Package pdftex.def Info: figures/CM4.png  used on input line 105.
+Package pdftex.def Info: figures/CM4.png  used on input line 108.
 (pdftex.def)             Requested size: 542.02367pt x 379.41655pt.
 
-Overfull \hbox (108.40366pt too wide) in paragraph at lines 105--106
+Overfull \hbox (108.40366pt too wide) in paragraph at lines 108--109
  [][] 
  []
 
 
-Underfull \vbox (badness 2409) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [46 <./figures/LA4.png>]
-<figures/LA5.png, id=740, 867.24pt x 867.24pt>
+ [47 <./figures/LA4.png>]
+<figures/LA5.png, id=761, 867.24pt x 867.24pt>
 File: figures/LA5.png Graphic file (type png)
 <use figures/LA5.png>
-Package pdftex.def Info: figures/LA5.png  used on input line 116.
+Package pdftex.def Info: figures/LA5.png  used on input line 119.
 (pdftex.def)             Requested size: 563.69934pt x 563.69934pt.
 
-Overfull \hbox (130.07933pt too wide) in paragraph at lines 116--117
+Overfull \hbox (130.07933pt too wide) in paragraph at lines 119--120
  [][] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [47 <./figures/CM4.png>]
-<figures/CM5.png, id=747, 722.7pt x 505.89pt>
+ [48 <./figures/CM4.png>]
+<figures/CM5.png, id=767, 722.7pt x 505.89pt>
 File: figures/CM5.png Graphic file (type png)
 <use figures/CM5.png>
-Package pdftex.def Info: figures/CM5.png  used on input line 123.
+Package pdftex.def Info: figures/CM5.png  used on input line 126.
 (pdftex.def)             Requested size: 542.02367pt x 379.41655pt.
 
-Overfull \hbox (108.40366pt too wide) in paragraph at lines 123--124
+Overfull \hbox (108.40366pt too wide) in paragraph at lines 126--127
  [][] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [48 <./figures/LA5.png>] [49 <./figures/CM5.png>]) [50]
-Cap\'{\i }tulo 10.
-(r-simulaciones.tex)
-Underfull \vbox (badness 2065) has occurred while \output is active []
+ [49 <./figures/LA5.png>]
+<figures/LA6.png, id=773, 867.24pt x 867.24pt>
+File: figures/LA6.png Graphic file (type png)
+<use figures/LA6.png>
+Package pdftex.def Info: figures/LA6.png  used on input line 140.
+(pdftex.def)             Requested size: 563.69934pt x 563.69934pt.
 
- [51
+Overfull \hbox (130.07933pt too wide) in paragraph at lines 140--141
+ [][] 
+ []
+
+[50 <./figures/CM5.png>]
+<figures/CM6.png, id=780, 722.7pt x 505.89pt>
+File: figures/CM6.png Graphic file (type png)
+<use figures/CM6.png>
+Package pdftex.def Info: figures/CM6.png  used on input line 147.
+(pdftex.def)             Requested size: 542.02367pt x 379.41655pt.
+
+Overfull \hbox (108.40366pt too wide) in paragraph at lines 147--148
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [51 <./figures/LA6.png>]
+<figures/LA7.png, id=786, 867.24pt x 867.24pt>
+File: figures/LA7.png Graphic file (type png)
+<use figures/LA7.png>
+Package pdftex.def Info: figures/LA7.png  used on input line 156.
+(pdftex.def)             Requested size: 563.69934pt x 563.69934pt.
+
+Overfull \hbox (130.07933pt too wide) in paragraph at lines 156--157
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [52 <./figures/CM6.png>]
+<figures/CM7.png, id=792, 722.7pt x 505.89pt>
+File: figures/CM7.png Graphic file (type png)
+<use figures/CM7.png>
+Package pdftex.def Info: figures/CM7.png  used on input line 163.
+(pdftex.def)             Requested size: 542.02367pt x 379.41655pt.
+
+Overfull \hbox (108.40366pt too wide) in paragraph at lines 163--164
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [53 <./figures/LA7.png>]
+<figures/LA8.png, id=799, 867.24pt x 867.24pt>
+File: figures/LA8.png Graphic file (type png)
+<use figures/LA8.png>
+Package pdftex.def Info: figures/LA8.png  used on input line 172.
+(pdftex.def)             Requested size: 563.69934pt x 563.69934pt.
+
+Overfull \hbox (130.07933pt too wide) in paragraph at lines 172--173
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [54 <./figures/CM7.png>]
+<figures/CM8.png, id=805, 722.7pt x 505.89pt>
+File: figures/CM8.png Graphic file (type png)
+<use figures/CM8.png>
+Package pdftex.def Info: figures/CM8.png  used on input line 179.
+(pdftex.def)             Requested size: 542.02367pt x 379.41655pt.
+
+Overfull \hbox (108.40366pt too wide) in paragraph at lines 179--180
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [55 <./figures/LA8.png>]) [56 <./figures/CM8.png>]
+Cap\'{\i }tulo 10.
+(r-simulaciones.tex [57
+
+]) [58] [59] [60
 
 ]
-[52]
 Cap\'{\i }tulo 11.
-(s-pruebasfisicas.tex) [53
-
-] [54
+(s-pruebasfisicas.tex) [61] [62
 
 ]
 Cap\'{\i }tulo 12.
-(k-conclusiones.tex) [55] [56
+(k-conclusiones.tex) [63] [64
 
 ]
 Cap\'{\i }tulo 13.
-(l-recomendaciones.tex) [57] [58
+(l-recomendaciones.tex) [65] [66
 
 ]
 Cap\'{\i }tulo 14.
@@ -1565,7 +1644,7 @@ Overfull \hbox (10.35724pt too wide) in paragraph at lines 490--490
 utional _ Neural _ Networks$[]\T1/cmr/m/n/10.95 . 
  []
 
-[59
+[67
 
 ]
 Overfull \hbox (41.1832pt too wide) in paragraph at lines 490--490
@@ -1574,13 +1653,13 @@ Overfull \hbox (41.1832pt too wide) in paragraph at lines 490--490
 w . fierceelectronics .
  []
 
-[60]
+[68]
 Cap\'{\i }tulo 15.
-(n-anexos.tex) [61
+(n-anexos.tex) [69
 
 ]
 No file z-main.gls.
-[62] (z-main.aux
+[70] (z-main.aux
 LaTeX Info: Redefining \sptext on input line 9.
 LaTeX Info: Redefining \. on input line 9.
 LaTeX Info: Redefining \% on input line 9.
@@ -1592,70 +1671,43 @@ LaTeX Info: Redefining \% on input line 16.
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-
-
-Package rerunfilecheck Warning: File `z-main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `z-main.out':
-(rerunfilecheck)             Before: F69C66B6A518D2500077AAF6CAE827D0;7171
-(rerunfilecheck)             After:  7B0AE9B0D1B25E9F8F0FE2AB6484E469;7468.
+Package rerunfilecheck Info: File `z-main.out' has not changed.
+(rerunfilecheck)             Checksum: 376134D2AC68AFCC8A0095710269759C;7209.
 Package logreq Info: Writing requests to 'z-main.run.xml'.
 \openout1 = `z-main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29810 strings out of 474718
- 537352 string characters out of 5758272
- 1939036 words of memory out of 5000000
- 51128 multiletter control sequences out of 15000+600000
+ 29869 strings out of 474718
+ 538449 string characters out of 5758272
+ 1940036 words of memory out of 5000000
+ 51176 multiletter control sequences out of 15000+600000
  574958 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,7n,93p,2343b,2747s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{chapter.120} has been referenced but does not exist
-, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{chapter.116} has been referenced but does not exist
-, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{chapter.115} has been referenced but does not exist
-, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.113} has been referenced but does not ex
-ist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.112} has been referenced but does not ex
-ist, replaced by a fixed one
-
- <C:\Users\gerar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm08
-00.pk> <C:\Users\gerar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
-ectt1095.pk> <C:\Users\gerar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/d
-pi600\ecbi1440.pk> <C:\Users\gerar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappe
-n/ec/dpi600\ecrm1000.pk> <C:\Users\gerar\AppData\Local\MiKTeX\fonts/pk/ljfour/j
-knappen/ec/dpi600\ecbi1095.pk> <C:\Users\gerar\AppData\Local\MiKTeX\fonts/pk/lj
-four/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\gerar\AppData\Local\MiKTeX\fonts
-/pk/ljfour/jknappen/ec/dpi600\ecss2488.pk> <C:\Users\gerar\AppData\Local\MiKTeX
-\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\gerar\AppData\Local\
-MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\gerar\AppData\
-Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc1095.pk> <C:\Users\gerar\Ap
-pData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\ge
-rar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1095.pk> <C:\Us
-ers\gerar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1440.pk> 
-<C:\Users\gerar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm120
-0.pk> <C:\Users\gerar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\e
-crm1440.pk> <C:\Users\gerar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dp
-i600\ecbx1440.pk> <C:\Users\gerar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen
-/ec/dpi600\ecrm1728.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmsy10.pfb>
-Output written on z-main.pdf (82 pages, 1424707 bytes).
+ <C:\Users\gerar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm
+0800.pk> <C:\Users\gerar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\ectt1095.pk> <C:\Users\gerar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\ecbi1440.pk> <C:\Users\gerar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\ecrm1000.pk> <C:\Users\gerar\AppData\Local\MiKTeX\fonts/pk/ljfour
+/jknappen/ec/dpi600\ecbi1095.pk> <C:\Users\gerar\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\gerar\AppData\Local\MiKTeX\fon
+ts/pk/ljfour/jknappen/ec/dpi600\ecss2488.pk> <C:\Users\gerar\AppData\Local\MiKT
+eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\gerar\AppData\Loca
+l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\gerar\AppDat
+a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc1095.pk> <C:\Users\gerar\
+AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\
+gerar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1095.pk> <C:\
+Users\gerar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1440.pk
+> <C:\Users\gerar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1
+200.pk> <C:\Users\gerar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600
+\ecrm1440.pk> <C:\Users\gerar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/
+dpi600\ecbx1440.pk> <C:\Users\gerar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknapp
+en/ec/dpi600\ecrm1728.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb>
+Output written on z-main.pdf (90 pages, 1674331 bytes).
 PDF statistics:
- 1569 PDF objects out of 1728 (max. 8388607)
- 238 named destinations out of 1000 (max. 500000)
- 474 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1632 PDF objects out of 1728 (max. 8388607)
+ 249 named destinations out of 1000 (max. 500000)
+ 504 words of extra memory for PDF output out of 10000 (max. 10000000)
 
